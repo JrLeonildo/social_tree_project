@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  /*1rem = 10px*/
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*profile picture*/
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #8a2be2;
+  border-radius: 100px;
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
+/*profile picture border*/
+.imgContainer img{
+  border-radius: 100px;
+}
+/*@instagram*/
+div p{
+  color: #8a2be2;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  margin-top: 15px;
+}
+/*links*/
+.linksContainer{
+  margin: 20px 0;
+}
+.linksContainer div{
+  margin: 12px;
+}
+/*link buttons*/
+.linksContainer div button{
+  width: 250px;
+  height: 33px;
+  border: solid 1.5px #8a2be2;
+  cursor: pointer;
+  background: none;
+}
+/*anchor links*/
+.linksContainer div button a{
+  text-decoration: none;
+  color: #8a2be2;
+  font-weight: bold;
+}
+.linksContainer div button a:hover{
+  text-decoration: underline;
+}
+/*icons*/
+.iconsContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: auto;
+}
+/*icons buttons*/
+.iconsContainer button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.iconsContainer button:hover{
+  transform: scale(1.4);
+  transition: 0.4s;
+}
+/*link images*/
+.iconsContainer button img{
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
